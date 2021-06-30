@@ -19,11 +19,17 @@ semantic segmentation,DeepLab,U-Net,SCSENet,BAM,HRNet,DenseASPP,Res-UNet,Remote 
 6、edge_3.py     :   轮廓优化代码  
 7、model_fuse.py :   模型融合代码  
 8、predict.py    :   整理后的预测代码  
+9、data_enhancement.py ： 数据增强模块+划分训练集与验证集  
+
   
 # 运行方式  
 方法一：在服务端运行buildAPI.py,客户端将影像以二进制传入，
 以JSON形式返回，结果为base64格式的检测结果图，以及优化后的轮廓点  
 方法二：运行 8、predict.py，提前修改好待检测影像路径  
+  
+# 作者  
+长沙理工大学1103实验室  
+  
   
 # 待续...
 
